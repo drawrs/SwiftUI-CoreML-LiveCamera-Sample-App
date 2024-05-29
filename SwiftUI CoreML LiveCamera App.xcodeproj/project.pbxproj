@@ -15,6 +15,8 @@
 		36A487892C047421003695EF /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A487882C047421003695EF /* ScanViewModel.swift */; };
 		36A4878B2C04742B003695EF /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A4878A2C04742B003695EF /* ScanView.swift */; };
 		36A4878D2C047435003695EF /* ViewFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A4878C2C047435003695EF /* ViewFinderView.swift */; };
+		36FCA8642C06E72900D8D8BF /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36FCA8632C06E72900D8D8BF /* Demo.gif */; };
+		36FCA8662C06E73300D8D8BF /* Demo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 36FCA8652C06E73300D8D8BF /* Demo.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		36A4878A2C04742B003695EF /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
 		36A4878C2C047435003695EF /* ViewFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFinderView.swift; sourceTree = "<group>"; };
 		36A4878E2C0474CD003695EF /* SwiftUI-Camera-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUI-Camera-App-Info.plist"; path = "SwiftUI Camera App/App/SwiftUI-Camera-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		36FCA8632C06E72900D8D8BF /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
+		36FCA8652C06E73300D8D8BF /* Demo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 		36A487752C0473B9003695EF /* SwiftUI Camera App */ = {
 			isa = PBXGroup;
 			children = (
+				36FCA8652C06E73300D8D8BF /* Demo.PNG */,
+				36FCA8632C06E72900D8D8BF /* Demo.gif */,
 				36741A372C06E36B00B1429A /* Utilities */,
 				36F737D22C06E327005FC958 /* Resources */,
 				36F737D12C06E321005FC958 /* App */,
@@ -187,8 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FCA8662C06E73300D8D8BF /* Demo.PNG in Resources */,
 				36A4877E2C0473BB003695EF /* Preview Assets.xcassets in Resources */,
 				36A4877B2C0473BB003695EF /* Assets.xcassets in Resources */,
+				36FCA8642C06E72900D8D8BF /* Demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
